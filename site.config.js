@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: `@whoisryosuke`,
-  title: `NextJS MDX Deck`,
-  date: `April 22, 2020`,
+  name: `Jaeriah Tay`,
+  title: `Next.js Strapi Vercel Heroku Application`,
+  date: `January 28, 2022`,
   author: {
-    url: `https://twitter.com/whoisryosuke`,
+    url: `https://jaeriah.com`,
   },
 }
 

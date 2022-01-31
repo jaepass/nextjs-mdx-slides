@@ -2,65 +2,166 @@
     
 <Cover>
 
-# NextJS MDX Deck
+<h1
+  style={{
+    color: '#3dcc68',
+  }}
+>A Climate Initiatives Listing Application</h1>
 
-Create presentations using Next & React & MDX.
+Built with Next.js ⚡, Strapi 🟪, Vercel ▲, & Heroku 🔳
 
 </Cover>
 
 ---
 
-1. Clone this project.
-1. Write some MDX.
-1. Export as [static app](https://nextjs.org/docs/advanced-features/static-html-export)
-1. ???
-1. Profit as a speaker 💰💰💰
-
-<SpeakerNotes>
-    
-Private notes here.
-
-You can write an extremely long note and it'll still display inside of the presenter mode.
-
-# Even Markdown!
-
-- Just
-- do
-- it
-
-</SpeakerNotes>
+1. What is this application and what does it do?
+1. What is the project setup?
+1. Why develop and deploy projects with Next.js & Vercel?
+1. Project features
+1. Who is this ecosystem for?
 
 ---
 
-> Inscrutable icons litter the face of the devices even though the research
-> community has long demonstrated that people cannot remember the meaning of
-> more than a small number of icons […] Who can remember what each icon
-> means? Not me.
->
-> <cite>Don Norman</cite>
+# What is this application?
+
+- Listing application showcasing climate initiatives
+- Form to submit new initiatives
+- Next.js front-end
+- Strapi back-end
+- Vercel front-end hosting
+- Heroku backend hosting
+- TailwindCSS utility styling
 
 ---
 
-# 🤫
+# Setup & Workflow
+
+<Steps>
+  <Step>Create Next.js app CLI</Step>
+  <Step>Pages and layouts</Step>
+  <Step>Component architecture</Step>
+  <Step>Build Strapi API - data model design & schema</Step>
+  <Step>Context layer with default layout</Step>
+  <Step>Serverless function</Step>
+  <Step>Styling with TailwindCSS</Step>
+  <Step>Front-end deployment</Step>
+  <Step>Back-end deployment</Step>
+</Steps>
+
+
+---
+
+# Why develop and deploy with Next.js and Vercel?
 
 ---
 
 <Steps>
-  <Step>Something</Step>
-  <Step>happens</Step>
-  <Step>one</Step>
-  <Step>by</Step>
-  <Step>one</Step>
+  <Step>Hybrid application using the client and server</Step>
+  <Step>Static Site Generation (SSG) with Incremental Site Regeneration (ISR)</Step>
+  <Step>Page Components & API Routes</Step>
+  <Step>Serverless Functions</Step>
+  <Step>Workflow integrations</Step>
+  <Step>Git integration for CI/CD</Step>
 </Steps>
 
 ---
 
-## Slides are written in MDX!
+# Let's touch on the specific features and integrations
 
-And code is highlighted using `react-syntax-highlighter`.
+---
 
-```js
-const variable = someFunction();
-```
+# Hybrid application
+
+- In-built methods to choose between client and server rendering
+- Static pages pre-rendered at build time
+- Performance boost
+- Server-side rendering for dynamic pages
+
+---
+
+# SSG with ISR
+
+- Hybrid solution to SSG and SSR
+- ISR relies on stale-while-revalidate
+- Regeneration of static pages during runtime
+
+---
+
+# Page Components & API Routes
+
+- Built-in routing using page components
+- Pages are pre-rendered by default
+- Build any API endpoint at `pages/api/[endpoint].js`
+- Server-side bundles for API endpoints
+
+---
+
+# Serverless Functions and Logging Output
+
+- Handle any backend logic in a serverless function
+- Seamless deployment of function to Vercel
+- Real-time logging output
+- Local development and testing of function
+
+---
+
+# Workflow Integrations
+
+- Headless CMS Strapi integration
+- PostGreSQL database integration
+
+---
+
+# Git Integration
+
+- Continuous integration and deployment
+- Automatic deploys on every branch push and merge
+- Preview deployments
+
+---
+
+# Project features
+
+- Static site generation and Incremental Static Regeneration with Next.js
+- Next.js serverless function for form submission
+- [Strapi CMS backend](https://github.com/jaepass/strapi-climate-api)
+- Strapi Component feature includes:
+  - Hero
+  - Navigation
+  - Content
+  - Footer
+
+---
+
+# ...and more
+
+- Strapi form submission using the create collection type endpoint
+- Utility-first CSS with [Tailwind CSS](https://tailwindcss.com)
+- Modular page content for all pages, including hero and content blocks
+- Page-level SEO settings
+
+---
+
+# Small-scale all the way to enterprise applications
+
+---
+
+# Who is this ecosystem for?
+
+- Performance optimization is important to you
+- You want little to no configuration and setup
+- You want to build a robust, scalable application
+- You want to leverage the built-in integrations
+- You need collaboration on your project
+- You care about having a frictionless developer experience
+
+---
+
+# Project repositories
+
+- [Next.js front-end](https://github.com/jaepass/strapi-nextjs-climate)
+- [Strapi back-end](https://github.com/jaepass/strapi-climate-api)
+
+
 
 </SlidePage>

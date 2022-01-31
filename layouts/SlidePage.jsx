@@ -85,6 +85,7 @@ const GlobalStyle = createGlobalStyle`
 
   #slide ol li::before {
     content: "0" counter(slide-ol-counter) ".";
+    color: #3dcc68;
     font-weight: bold;
     font-size: 2rem;
     margin-right: 0.5rem;
@@ -163,7 +164,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
     font-size: 200%;
-
+    color: #3dcc68;
     margin-bottom: 0.5rem;
   }
 
@@ -171,7 +172,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--heading-font-family);
     font-weight: var(--heading-font-weight);
     font-size: 120%;
-
+    color: #3dcc68;
     margin-bottom: 0.5rem;
   }
 
